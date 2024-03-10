@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    background-color: #6420AA;
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.titulo {
+    margin: 0px;
+    color: white;
+    text-align: center;
+    
+}
+
+#cadastra-tarefa {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#tarefa {
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #f94ba8;
+    background-color: #FF3EA5;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    font-size: 18px;
+}
+
+#tarefa::placeholder {
+    color: white;
+}
+
+#botao-cadastrar {
+    border-radius: 10px;
+    border: 1px solid #f94ba8;
+    background-color: #FF3EA5;
+    color: white;
+    width: 50px;
+    font-size: 25px;
+}
+
+#botao-cadastrar:hover {
+    background: #fb0287;
+    cursor: pointer;
+}
+
+#content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#content li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 420px;
+    padding: 15px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(247, 150, 202);
+    background-color: #FFB5DA;
+    color: white;
+    font-size: 16px;
+}
+
+#botao-excluir-tarefa {
+    border: none;
+    background-color: transparent;
+}
+
+.fa-trash {
+    color: #ff3ea5;
+    font-size: 25px;
+}
+
+.fa-trash:hover {
+    color: white;
+    cursor: pointer;
+}
