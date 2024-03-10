@@ -86,3 +86,8 @@ body {
     color: white;
     cursor: pointer;
 }
+
+#check-conclusao {
+    zoom: 2;
+    margin: 0;
+}
